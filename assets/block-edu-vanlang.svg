@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1051.57 102.98">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: SFProDisplay-Medium, 'SF Pro Display';
+        font-size: 35.89px;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #282828;
+      }
+
+      .cls-2 {
+        font-family: SFProDisplay-LightItalic, 'SF Pro Display';
+        font-size: 29.36px;
+        font-style: italic;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(0 30.59)"><tspan x="0" y="0">★ </tspan><tspan class="cls-3" x="44.09" y="0">V</tspan><tspan x="64.42" y="0">AN LANG UNIVERSITY - B.A</tspan><tspan class="cls-5" x="503.62" y="0">.</tspan><tspan x="509.79" y="0" xml:space="preserve"> IN GRAPHIC DESIGN</tspan></text>
+      <text class="cls-2" transform="translate(0 86.49)"><tspan class="cls-7" x="0" y="0">2</tspan><tspan x="16.82" y="0">019 - </tspan><tspan class="cls-7" x="90.34" y="0">2</tspan><tspan class="cls-6" x="107.16" y="0">0</tspan><tspan class="cls-4" x="125.1" y="0">2</tspan><tspan x="141.21" y="0">4</tspan></text>
+    </g>
+  </g>
+</svg>

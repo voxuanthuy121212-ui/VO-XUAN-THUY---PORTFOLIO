@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2026</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- LOCKSCREEN -->
+    <div class="lockscreen-container" id="lockscreen">
+        <img src="./assets/lockscreen-bg.png" class="lockscreen-asset bg" alt="Background">
+        <img src="./assets/lockscreen-frame.svg" class="lockscreen-asset frame" alt="Frame">
+        <img src="./assets/lockscreen-text-job-title.svg" class="lockscreen-asset text-job-title" alt="Job Title">
+        <div class="lockscreen-asset year-container">
+            <img src="./assets/lockscreen-year-202.svg" class="year-static" alt="202">
+            <div class="year-slider">
+                <img src="./assets/lockscreen-year-5.svg" class="year-num num-5" alt="5">
+                <img src="./assets/lockscreen-year-6.svg" class="year-num num-6" alt="6">
+            </div>
+        </div>
+        <img src="./assets/lockscreen-text-portfolio-base.svg" class="lockscreen-asset text-portfolio-base" alt="Portfolio">
+        <img src="./assets/lockscreen-fish-dot.svg" class="lockscreen-asset fish-dot" alt="Fish Dot">
+        <img src="./assets/lockscreen-cat.svg" class="lockscreen-asset cat" alt="Cat">
+        <img src="./assets/lockscreen-login-btn-border.svg" class="lockscreen-asset login-btn-border" alt="Login">
+        <img src="./assets/lockscreen-text-name.svg" class="lockscreen-asset text-name" alt="VO XUAN THUY">
+    </div>
+
+
+    <!-- DESKTOP -->
+    <div class="desktop-container" id="desktop">
+        <div class="desktop-bg-white"></div>
+        <img src="./assets/desktop-topbar.svg" class="desktop-asset desktop-topbar" alt="Topbar">
+        <img src="./assets/lockscreen-cat.svg" class="desktop-asset desktop-cat" id="desktop-cat-btn" alt="Cat Icon">
+
+        <!-- 4 THƯ MỤC TRÊN DESKTOP -->
+        <div class="folders-layer">
+            <div class="folder-group folder-1" id="folder-about-btn">
+                <img src="./assets/folder-back.svg" class="desktop-asset folder-back" alt="Folder Back">
+                <img src="./assets/folder-paper-yellow.svg" class="desktop-asset folder-paper paper-yellow" alt="Yellow Paper">
+                <img src="./assets/folder-paper-pink.svg" class="desktop-asset folder-paper paper-pink" alt="Pink Paper">
+                <img src="./assets/folder-front.svg" class="desktop-asset folder-front" alt="Folder Front">
+                <span class="folder-title">ABOUT ME</span>
+            </div>
+
+            <!-- Thư mục DESIGN -->
+            <div class="folder-group folder-2" id="folder-design-btn">
+                <img src="./assets/folder-back.svg" class="desktop-asset folder-back" alt="Folder Back">
+                <img src="./assets/folder-paper-yellow.svg" class="desktop-asset folder-paper paper-yellow" alt="Yellow Paper">
+                <img src="./assets/folder-paper-pink.svg" class="desktop-asset folder-paper paper-pink" alt="Pink Paper">
+                <img src="./assets/folder-front.svg" class="desktop-asset folder-front" alt="Folder Front">
+                <span class="folder-title">DESIGN</span>
+            </div>
+
+            <!-- Thư mục ILLUSTRATION -->
+            <div class="folder-group folder-3" id="folder-illustration-btn">
+                <img src="./assets/folder-back.svg" class="desktop-asset folder-back" alt="Folder Back">
+                <img src="./assets/folder-paper-yellow.svg" class="desktop-asset folder-paper paper-yellow" alt="Yellow Paper">
+                <img src="./assets/folder-paper-pink.svg" class="desktop-asset folder-paper paper-pink" alt="Pink Paper">
+                <img src="./assets/folder-front.svg" class="desktop-asset folder-front" alt="Folder Front">
+                <span class="folder-title">ILLUSTRATION</span>
+            </div>
+
+            <!-- Thư mục PHOTOGRAPHY -->
+            <div class="folder-group folder-4" id="folder-photography-btn">
+                <img src="./assets/folder-back.svg" class="desktop-asset folder-back" alt="Folder Back">
+                <img src="./assets/folder-paper-yellow.svg" class="desktop-asset folder-paper paper-yellow" alt="Yellow Paper">
+                <img src="./assets/folder-paper-pink.svg" class="desktop-asset folder-paper paper-pink" alt="Pink Paper">
+                <img src="./assets/folder-front.svg" class="desktop-asset folder-front" alt="Folder Front">
+                <span class="folder-title">PHOTOGRAPHY</span>
+            </div>
+        </div>
+
+
+        <!-- CỬA SỔ ABOUT ME WINDOW -->
+        <div class="window-about-container" id="window-about">
+            <img src="./assets/btn-red.svg" class="desktop-asset btn-window btn-red" id="btn-close-about" alt="Close Window">
+            <img src="./assets/btn-yellow.svg" class="desktop-asset btn-window btn-yellow" alt="Minimize Window">
+            <img src="./assets/btn-green.svg" class="desktop-asset btn-window btn-green" alt="Maximize Window">
+
+            <img src="./assets/menu-bg-activ.svg" class="desktop-asset menu-bg-active" id="menu-active-bg" alt="Active Menu">
+
+            <img src="./assets/text-menu-about.svg" class="desktop-asset menu-item menu-about active" id="menu-item-about" alt="About">
+            <img src="./assets/text-menu-experience.svg" class="desktop-asset menu-item menu-experience" id="menu-item-experience" alt="Experience">
+            <img src="./assets/text-menu-education.svg" class="desktop-asset menu-item menu-education" id="menu-item-education" alt="Education">
+            <img src="./assets/text-menu-awards.svg" class="desktop-asset menu-item menu-awards" id="menu-item-awards" alt="Awards">
+
+            <div class="tab-content active" id="tab-about-content">
+                <div class="cat-biting-wrapper" id="cat-wrapper">
+                    <img src="./assets/meo.svg" class="desktop-asset cat-body" alt="Cat Body">
+                    <img src="./assets/miengmeo.svg" class="desktop-asset cat-mouth" alt="Cat Mouth">
+                </div>
+
+                <div class="avatar-card-wrapper" id="avatar-card">
+                    <img src="./assets/photo-avatar-frame@2x.png" class="desktop-asset photo-avatar" alt="Avatar">
+                    <img src="./assets/btn-red.svg" class="desktop-asset btn-avatar-window avatar-btn-red" id="btn-close-avatar" alt="Close Avatar">
+                    <img src="./assets/btn-yellow.svg" class="desktop-asset btn-avatar-window avatar-btn-yellow" alt="Yellow Avatar Button">
+                    <img src="./assets/btn-green.svg" class="desktop-asset btn-avatar-window avatar-btn-green" alt="Green Avatar Button">
+                </div>
+
+                <img src="./assets/text-bio-content.svg" class="desktop-asset text-bio-content" alt="Bio Content">
+            </div>
+
+            <div class="tab-content" id="tab-experience-content">
+                <div class="scrollable-area" id="experience-scroll-area">
+                    <img src="./assets/expe.svg" class="desktop-asset expe-content" alt="Experience Content">
+                </div>
+                <img src="./assets/cuon.svg" class="desktop-asset scrollbar-custom" id="custom-scrollbar" alt="Scrollbar">
+            </div>
+
+            <div class="tab-content" id="tab-education-awards-content">
+                <img src="./assets/aw.svg" class="desktop-asset aw-content" alt="Education Awards Content">
+            </div>
+        </div>
+
+
+        <!-- CỬA SỔ DESIGN LIBRARY WINDOW -->
+        <div class="window-design-container" id="window-design">
+            <img src="./assets/designlibrary.svg" class="desktop-asset design-bg-library" alt="Design Library">
+
+            <img src="./assets/btn-red.svg" class="desktop-asset btn-design-window btn-design-red" id="btn-close-design" alt="Close Window">
+            <img src="./assets/btn-yellow.svg" class="desktop-asset btn-design-window btn-design-yellow" alt="Minimize Window">
+            <img src="./assets/btn-green.svg" class="desktop-asset btn-design-window btn-design-green" alt="Maximize Window">
+
+            <img src="./assets/icon-star.svg" class="desktop-asset menu-star-icon" id="menu-star-icon" alt="Star Icon">
+
+            <div class="sub-menu-layer">
+                <img src="./assets/poster.svg" class="desktop-asset sub-cat-item item-poster" data-filter="poster" alt="Poster">
+                <img src="./assets/social.svg" class="desktop-asset sub-cat-item item-social" data-filter="social" alt="Social">
+                <img src="./assets/web.svg" class="desktop-asset sub-cat-item item-web" data-filter="web" alt="Web">
+                <img src="./assets/posm.svg" class="desktop-asset sub-cat-item item-posm" data-filter="posm" alt="POSM">
+                <img src="./assets/branding.svg" class="desktop-asset sub-cat-item item-branding" data-filter="branding" alt="Branding">
+                <img src="./assets/3d.svg" class="desktop-asset sub-cat-item item-3d" data-filter="3d" alt="3D">
+            </div>
+
+            <div class="design-grid-area" id="design-grid-area"></div>
+        </div>
+
+
+        <!-- CỬA SỔ ILLUSTRATION LIBRARY WINDOW -->
+        <div class="window-illustration-container" id="window-illustration">
+            <img src="./assets/designlibrary.svg" class="desktop-asset illustration-bg-library" alt="Illustration Library">
+
+            <img src="./assets/btn-red.svg" class="desktop-asset btn-illustration-window btn-ill-red" id="btn-close-illustration" alt="Close Window">
+            <img src="./assets/btn-yellow.svg" class="desktop-asset btn-illustration-window btn-ill-yellow" alt="Minimize Window">
+            <img src="./assets/btn-green.svg" class="desktop-asset btn-illustration-window btn-ill-green" alt="Maximize Window">
+
+            <img src="./assets/icon-star.svg" class="desktop-asset ill-menu-star-icon" id="ill-menu-star-icon" alt="Star Icon">
+
+            <div class="ill-sub-menu-layer">
+                <img src="./assets/digi.svg" class="desktop-asset ill-sub-cat-item item-digi" data-filter="digital" alt="Digital Art">
+                <img src="./assets/tradi.svg" class="desktop-asset ill-sub-cat-item item-tradi" data-filter="traditional" alt="Traditional Art">
+            </div>
+
+            <div class="illustration-grid-area" id="illustration-grid-area"></div>
+        </div>
+
+
+        <!-- CỬA SỔ PHOTOGRAPHY LIBRARY WINDOW -->
+        <div class="window-photography-container" id="window-photography">
+            <img src="./assets/designlibrary.svg" class="desktop-asset photography-bg-library" alt="Photography Library">
+
+            <img src="./assets/btn-red.svg" class="desktop-asset btn-photography-window btn-photo-red" id="btn-close-photography" alt="Close Window">
+            <img src="./assets/btn-yellow.svg" class="desktop-asset btn-photography-window btn-photo-yellow" alt="Minimize Window">
+            <img src="./assets/btn-green.svg" class="desktop-asset btn-photography-window btn-photo-green" alt="Maximize Window">
+
+            <img src="./assets/icon-star.svg" class="desktop-asset photo-menu-star-icon" id="photo-menu-star-icon" alt="Star Icon">
+
+            <div class="photo-sub-menu-layer">
+                <img src="./assets/Personal.svg" class="desktop-asset photo-sub-cat-item item-personal" data-filter="personal" alt="Personal">
+                <img src="./assets/event.svg" class="desktop-asset photo-sub-cat-item item-event" data-filter="event" alt="Event">
+                <img src="./assets/ai.svg" class="desktop-asset photo-sub-cat-item item-ai" data-filter="ai" alt="AI">
+            </div>
+
+            <div class="photography-grid-area" id="photography-grid-area"></div>
+        </div>
+
+    </div>
+
+    <!-- Modal xem chi tiết ảnh/video -->
+    <div class="image-modal" id="imageModal">
+        <button class="modal-arrow modal-prev" id="modalPrevBtn">&#10094;</button>
+        <button class="modal-arrow modal-next" id="modalNextBtn">&#10095;</button>
+        <span class="close-modal">&times;</span>
+        <div class="modal-content-wrapper" id="modalBodyContainer"></div>
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
